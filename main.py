@@ -37,9 +37,9 @@ while 1:
     day = now.day
     print(hour, minute, second, weekday, day)
 
-    if (hour == 10 and minute == 0 and second == 0 and weekday == 2 and day < 8):
+    if (hour == 10 and minute == 0 and second == 5 and weekday == 2 and day < 8):
         commands.avisMati(bot)
-    elif (hour == 21 and minute == 0 and second == 0 and weekday == 2 and day < 8):
+    elif (hour == 21 and minute == 0 and second == 5 and weekday == 2 and day < 8):
         commands.avisVespre(bot)
     elif (hour == 22 and minute == 0 and second == 30 and weekday == 2 and day < 8):
         commands.avisImmediat(bot)
