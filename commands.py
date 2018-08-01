@@ -8,4 +8,4 @@ def avisVespre(bot):
     bot.sendMessage(-1980488, "Recordeu que falta 1 hora per la reunió!")
 
 def avisImmediat(bot):
-    bot.sendMessage(-1980488, "Ja comença la reunió!")
+    bot.sendMessage(-1980488, "Va! Que comença la reunió!")
