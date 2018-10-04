@@ -15,6 +15,8 @@ def handle(msg):
 
     if (command == "/start"):
         commands.start(bot, chat_id)
+    elif (command == "/ordredia"):
+        commands.ordredia(bot, chat_id)
 
 f = open("TOKEN", "r")
 TOKEN = f.readline().rstrip()
