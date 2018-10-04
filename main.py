@@ -13,9 +13,9 @@ def handle(msg):
 
     print ('Got command: %s from chat_id: %d' % (command, chat_id))
 
-    if (command == "/start"):
+    if (command == "/start" or command == "/start@UbuntuCat_bot"):
         commands.start(bot, chat_id)
-    elif (command == "/ordredia"):
+    elif (command == "/ordredia" or command == "/ordredia@UbuntuCat_bot"):
         commands.ordredia(bot, chat_id)
 
 f = open("TOKEN", "r")
