@@ -20,7 +20,7 @@ def avisMati(bot):
     bot.sendMessage(-1980488, "Recordeu que avui a les 22:00 hi ha reunió!")
 
 def avisVespre(bot):
-    bot.sendMessage(-1980488, "Recordeu que falta 1 hora per la reunió!")
+    bot.sendMessage(-1980488, "Recordeu que falta 1 hora per a la reunió!")
 
 def avisImmediat(bot):
     bot.sendMessage(-1980488, "Va! Que comença la reunió!")
