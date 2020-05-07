@@ -17,7 +17,7 @@ def ordredia(bot, chat_id):
     bot.sendMessage(chat_id, sortida)
 
 def avisMati(bot):
-    bot.sendMessage(-1980488, "Recordeu que avui a les 22:00 hi ha reunió!")
+    bot.sendMessage(-1980488, "Recordeu que avui a les 21:00 hi ha reunió!")
 
 def avisVespre(bot):
     bot.sendMessage(-1980488, "Recordeu que falta 1 hora per a la reunió!")
